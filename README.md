@@ -3,6 +3,31 @@ Capistrano Template For Symfony 3
 
 ## Setup Capistrano
 
+### On Windows
+Setup Ruby
+http://rubyinstaller.org/downloads/
+
+Setup Gem
+https://rubygems.org/pages/download
+- Download zip version
+- Unzip
+- Setup
+```
+ruby setup.rb install
+gem update —system
+```
+
+Setup Capistrano
+```
+gem install capistrano
+```
+
+Setup some dependcy
+```
+gem install capistrano-ext (for instace for Multistage Deploys)
+gem install railsless-deploy
+```
+
 ### On Linux
 
 #### Way 1:
