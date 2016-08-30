@@ -1,6 +1,6 @@
-lock '3.4.0'
+lock '3.6.1'
 
-set :application, 'sym28'
+set :application, 'sym3lab'
 set :scm, :copy
 #set :repo_url, 'git@bitbucket.org:nntuan/sym28.git'
 

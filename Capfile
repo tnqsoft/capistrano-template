@@ -6,6 +6,7 @@ require 'capistrano/deploy'
 
 require 'capistrano/composer'
 require 'capistrano/symfony'
+require 'capistrano/copy'
 #require 'capistrano/npm'
 #require 'capistrano/bower'
 
